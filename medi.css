@@ -1,0 +1,207 @@
+.div6
+      {
+        display: flex;
+        justify-content: center;
+        text-align:center;
+        align-items:center;
+        position:sticky;
+        background-color:grey;
+        top:5.5rem;
+        padding-bottom:.5rem;
+        
+        
+        
+      }
+
+      .div6 .inpscr
+      {
+           width:40rem;
+           margin-top:.8rem;
+           height:4rem;
+           border-left:none;
+           border:.2rem solid #0c8bae;
+           border-right:none;
+           border-top-left-radius:2rem; 
+           border-bottom-left-radius:2rem;
+           outline:none;
+           padding-left:1rem;
+        }
+
+        .search
+        {
+            
+            border-top-right-radius:2rem; 
+            border-bottom-right-radius:2rem; 
+            margin-top:.8rem;
+            height:4rem;
+            background-color:#0c8bae;
+            color:white;
+            border:.2rem solid #0c8bae;
+            cursor: pointer;
+            padding-left:1rem;
+            border-left:none;
+            padding-right:1rem;
+            font-size:1.5rem;
+        }
+
+        .div5 
+        {
+          display:flex;
+          justify-content:space-evenly;
+          align-items:center;
+          text-align: center;
+          margin-left:1rem;
+          flex-wrap:wrap;
+        }
+/* 
+        .box7, .box6 {
+
+border: 2rem solid rgb(192, 191, 191);
+width: 280rem;
+height: 425rem;
+margin-top: 20rem;
+border-radius: 20rem;
+padding-top: 25rem;
+margin-bottom:20rem;
+background-color: rgb(192, 191, 191);
+margin-left: 30rem;
+
+
+
+
+} */
+
+/* #we
+{
+color: red;
+margin-left: 15rem;
+margin-top:30rem;
+margin-bottom: 20rem;
+} */
+
+
+
+
+.box6 {
+
+border: .2rem solid #303132 ;
+width:25rem;
+height:25rem;
+margin-top: 2.5rem;
+margin-right:1.5rem;
+border-radius: 2rem;
+padding-top: 2rem;
+background-color:#303132;
+display:block;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+}
+
+.boxun {
+
+border: .2rem solid #303132 ;
+width:100%;
+height:25rem;
+margin-top: 2.5rem;
+margin-right:1.5rem;
+margin-left:1.5rem;
+border-radius: 2rem;
+padding-top: 2rem;
+background-color:#303132;
+display:block;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+}
+
+.box6 a,.boxun a
+{
+    
+    font-size: 2rem;
+    text-decoration: none;
+    color:black;
+    
+}
+
+
+
+
+.box6 button,.boxun button{
+
+font-size:1.4rem;
+color:white;
+background-color:#0c8bae;
+padding:1rem;
+width:7rem;
+border:.2rem solid #0c8bae;
+border-radius:1rem;
+margin-top:.5rem;
+cursor: pointer;
+
+}
+
+
+
+.box6 h2{
+    
+    font-size:2.5rem;
+    font-weight: 2rem;
+    margin-top:-2rem;
+    color:white;
+    
+    
+}
+
+.boxun h2
+{
+    font-size:2.5rem;
+    font-weight: 2rem;
+    /* margin-top:-2rem; */
+    color:white;
+}
+
+.box6 h3, .boxun h3{
+    
+    font-size:1.5rem;
+    font-weight: 2rem;
+    color:green;
+    
+    
+}
+
+.box6 img{
+    width:20rem;
+    height:15rem;
+    border:.5rem solid transparent;
+    border-radius:2rem;
+    /* margin-bottom:25rem; */
+    background:linear-gradient(45deg,#ffffff,#ebebeb,#d7d7d7,#cfcece
+    ,#dddd);
+    animation:img 10s linear infinite;
+    margin-left:-.8rem;
+    margin-top:-.8rem;
+ 
+ 
+}
+
+@keyframes img
+{
+0%
+{
+    background-position:0 0;
+
+}
+50%
+{
+    background-position:400 0;
+  
+    
+}
+100%
+{
+    background-position:0 0;
+}
+}

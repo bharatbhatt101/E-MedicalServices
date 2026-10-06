@@ -1,0 +1,154 @@
+.div6
+      {
+        display: flex;
+        justify-content: center;
+        text-align:center;
+        align-items:center;
+        position:sticky;
+        background-color:#808080;
+        top:4rem;
+        padding-bottom:.5rem;
+        
+        
+      }
+
+      .inpba
+      {
+           width:18rem;
+           height:2.5rem;
+           margin-bottom:1rem;
+           margin-top:.5rem;
+           margin-left:1.5rem;
+        
+        }
+        
+        
+        
+        #select
+        {
+            width:18rem;
+            height:2.5rem;   
+            margin-bottom:1rem;
+            margin-top:.5rem;
+            margin-left:1.5rem;
+            
+            
+          
+      }
+
+      #select1
+        {
+            width:38rem;
+            height:4rem;
+            padding-left:.5rem;    
+            margin-bottom:1rem;
+            margin-top:.5rem;
+            margin-left:1.5rem;
+            
+            
+          
+      }
+           
+      h3
+      {
+          color:red;
+          font-size:2.8rem;
+          margin-top:1.5rem;
+          margin-bottom:1.5rem;
+      }
+
+      #doctor
+      {
+
+          height:6.8rem;
+          background-color:#303132;
+          border:2px solid #303132 ;
+          
+        }
+        #doctor p
+        {
+            font-size:2.2rem;
+          margin-top:.5rem;
+          
+        }
+
+        .box8 {
+            
+            border: .2rem solid black;
+            height: 39.6rem;
+            width:55rem;
+            margin-bottom: 2.5rem;
+            background:white;
+            margin-top:3rem;
+            border-radius: 2rem;
+            margin-left:2.5rem;
+            margin-right:2.5rem;
+            text-align:left;
+            
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        .host
+        {
+            display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      flex-wrap:wrap;
+    }
+    
+    
+    
+    pre
+    {
+        font-size:1.2rem;
+        margin-left:2.2rem;
+    }
+    
+    #bookapp
+    {
+        width:15rem;
+        height:4rem;
+        border-radius:1rem;
+        background-color:green;
+        color:white;
+        cursor: pointer;
+        margin-top:1.5rem;
+        
+    }
+
+    #bookref
+    {
+        width:15rem;
+        height:4rem;
+        border-radius:1rem;
+        background-color:grey;
+        margin-top:1.5rem;
+        color:white;
+        cursor: pointer;
+        
+    }
+
+    #appoint
+    {
+        color:white;
+    }
+
+    #appoint:hover
+    {
+        border:none;
+        color:#2178d5;
+    }
+
+    
+
+    ._bd
+    {
+        background:#2178d5;
+    }

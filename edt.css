@@ -1,0 +1,12 @@
+ .body {
+     background: #2178d5;
+ }
+
+ #file {
+     width: 26rem;
+     background-color: white;
+     font-size: 2rem;
+     color: black;
+     margin-left: 1rem;
+     border: .2rem solid grey;
+ }

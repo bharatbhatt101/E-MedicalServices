@@ -1,0 +1,87 @@
+ .ody
+       {
+               display:block;
+               background:#2178d5;
+       }
+
+.div5 {
+
+border: .5rem solid #2178d5;
+width:35%;
+height:38.4rem;
+margin-top: 4%;
+margin-bottom:1.5rem;
+margin-right:1.5rem;
+margin-left:32%;
+border-radius: 2rem;
+padding-top: 2rem;
+background-color:white;
+
+
+}
+
+
+.div4
+{
+     height:6rem;
+}
+
+
+
+
+
+
+
+.div5 h2
+{
+    font-size:2.5rem;
+    font-weight: 2rem;
+    /* margin-top:-2rem; */
+    color:red;
+}
+
+ 
+.medi1
+{
+     width:23rem;
+     height:4rem;
+     border-radius:2rem;
+     padding-left:1rem;                  
+     padding-right:1rem;                  
+     padding-top:1rem;                  
+     padding-bottom:1rem;                  
+     font-size:1.5rem;
+     margin-bottom:1.5rem;
+
+}
+
+.order
+{
+     background:green;
+     border:.2rem solid green;
+     height:4rem;
+     width:12rem;
+     font-size:1.6rem;
+     color:white;
+     border-radius:1.5rem;
+     cursor: pointer;
+}
+
+.ref
+{
+     background:grey;
+     border:.2rem solid grey;
+     height:4rem;
+     width:12rem;
+     font-size:1.6rem;
+     color:white;
+     margin-top:1rem;
+     border-radius:1.5rem;
+     cursor: pointer;
+}
+
+       #home:hover
+       {
+            border:none;
+            color:#2178d5;
+       }

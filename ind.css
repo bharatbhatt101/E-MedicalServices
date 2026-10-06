@@ -1,0 +1,30 @@
+body
+        {
+            background:#2178d5;
+        }
+
+        img
+        {
+             margin-top:12%;
+             border:.6rem solid red;
+        }
+
+        button
+        {
+             width:17rem;
+             height:4rem;
+             font-size:2rem;
+             border:.3rem solid #3c2f88;
+             border-radius:1.5rem;
+             margin-top:2.5rem;
+             cursor: pointer;
+        }
+
+        button:hover
+        {
+            background:#3c2f88;
+            border:.3rem solid white;
+            transition:1.5s;
+            color:white;
+
+        }

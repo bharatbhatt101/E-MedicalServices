@@ -1,0 +1,16 @@
+ .body1 {
+     display: block;
+     background: #2178d5;
+
+ }
+
+ .forget .log {
+     color: white;
+     background-color: #2178d5;
+     border: .2rem solid #2178d5;
+     cursor: pointer;
+     padding: 1rem;
+     /* border:none; */
+     font-size: 1.5rem;
+     border-radius: .5rem;
+ }

@@ -1,0 +1,80 @@
+ #select1 {
+     background-color: #0c8bae;
+     color: white;
+     border: none;
+     cursor: pointer;
+ }
+
+ #select1:hover {
+     background-color: #0c8bae;
+     color: white;
+     border: none;
+     cursor: pointer;
+     border: .2rem solid white;
+ }
+
+.btn
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+ .div2 img {
+     width: 10rem;
+     height: 10rem;
+     border: .5rem solid transparent;
+     border-radius: 50%;
+     margin-top: 1rem;
+     background: linear-gradient(45deg, #04c6cd, #3c2f88, #2178d5, #a680cd, #099fff);
+ }
+
+
+
+ .box1 b {
+     color: white;
+     font-size: 1.5rem;
+
+
+ }
+
+ .box2 button {
+     width: 5rem;
+     height: 3rem;
+     border: .2rem solid white;
+     background: linear-gradient(45deg, #04c6cd, #3c2f88, #2178d5, #a680cd, #099fff);
+     border-radius: 1rem;
+
+     color: white;
+     cursor: pointer;
+ }
+
+ .box3 button {
+     width: 5rem;
+     height: 3rem;
+     border: .2rem solid white;
+     border-radius: 1rem;
+     color: white;
+     cursor: pointer;
+     background: linear-gradient(45deg, #04c6cd, #3c2f88, #2178d5, #a680cd, #099fff);
+ }
+
+ .box4 button {
+     width: 5rem;
+     height: 3rem;
+     border: .2rem solid white;
+     border-radius: 1rem;
+     color: white;
+     cursor: pointer;
+     background: linear-gradient(45deg, #04c6cd, #3c2f88, #2178d5, #a680cd, #099fff);
+ }
+
+ .box5 button {
+     width: 5rem;
+     height: 3rem;
+     border: .2rem solid white;
+     border-radius: 1rem;
+     color: white;
+     cursor: pointer;
+     background: linear-gradient(45deg, #04c6cd, #3c2f88, #2178d5, #a680cd, #099fff);
+ }

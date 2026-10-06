@@ -1,0 +1,914 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+.bar,
+.cmob,
+#contact,
+#cl,.hmd {
+    display: none;
+}
+
+/* Index.php part */
+.super {
+
+    display: block;
+}
+
+
+.div1 {
+    border: .2rem solid rgb(12, 139, 174);
+    background-color: rgb(12, 139, 174);
+    height: 10rem;
+    position: sticky;
+    top: 0;
+
+
+}
+
+.custom {
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+    /* position: relative; */
+    min-width: 25rem;
+    /* border:2rem solid transparent; */
+    float: right;
+
+}
+
+
+
+
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+#logo {
+    height: 4rem;
+    width: 4rem;
+    margin-top: .5rem;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+
+.div1 a {
+    text-decoration: none;
+    color: white;
+    float: right;
+
+    margin-right: 1rem;
+    border-bottom: .2rem solid white;
+    font-size: 1.5rem;
+    
+}
+
+.div1 a:hover {
+
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+/* .div1 i {
+
+    font-size:25rem;
+    color: rgb(153, 153, 153);
+    padding: 5rem;
+    float: right;
+    border: 2rem solid transparent;
+    display: none;
+
+
+
+} */
+
+/* .div1 i:hover {
+
+    font-size: 30rem;
+    color: white;
+    cursor: pointer;
+    border: 2rem solid black;
+    padding: 5rem;
+    border-radius: 5rem;
+
+} */
+
+.div1 p {
+
+    font-size: 3rem;
+    color: white;
+    margin-left: 2.5rem;
+
+}
+
+.box1 {
+
+    border: .2rem solid linear-gradient(45deg, #04c6cd, #3c2f88, #2178d5, #a680cd, #099fff);
+    height: max-content;
+    margin-top: 2.5rem;
+    border-radius: 2rem;
+    padding-top: 2rem;
+    background: linear-gradient(45deg, #04c6cd, #3c2f88, #2178d5, #a680cd, #099fff);
+    padding: 2rem;
+    margin-left: 1.7rem;
+    margin-right: 4rem;
+    animation: img1 8s linear infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.box1 h2 {
+
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    /* margin-top:-16rem; */
+    margin-bottom: 2rem;
+}
+
+
+
+.box1 button {
+    background-color: white;
+    color: #0082e6;
+    width: 10rem;
+    height: 10rem;
+    border: .2rem solid black;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+}
+
+
+.box1 button:hover {
+    background: linear-gradient(45deg, #a1a2a2, #6b6b6b, #d8d9da, #404040, #686868);
+    color: white;
+    border: .2rem solid black;
+    animation: img1 8s linear infinite;
+
+}
+
+@keyframes img1 {
+    0% {
+        background-position: 0 0;
+
+    }
+
+    50% {
+        background-position: 1000 0;
+
+
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.box2 {
+
+    border: .2rem solid rgb(119, 210, 246);
+    height: 25rem;
+    /* width:300rem; */
+
+    margin-top: 1.5rem;
+    padding-top: 2.5rem;
+    margin-bottom: 3rem;
+    border-radius: 2rem;
+    margin-left: 1.7rem;
+    background-color: rgb(119, 210, 246);
+    /* margin-left:25rem;
+    margin-right:25rem; */
+
+
+
+
+}
+
+.box3 {
+
+    border: .2rem solid rgb(183, 251, 144);
+    height: 25rem;
+    /* width: 300rem; */
+    margin-top: 1.5rem;
+    border-radius: 2rem;
+    background-color: rgb(183, 251, 144);
+    padding-top: 2.5rem;
+    margin-bottom: 3rem;
+    margin-left: 1.7rem;
+
+
+
+
+}
+
+.box4 {
+
+    border: .2rem solid rgb(250, 139, 139);
+    height: 25rem;
+    /* width: 300rem; */
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    border-radius: 2rem;
+    padding-top: 2.5rem;
+    background-color: rgb(250, 139, 139);
+    margin-left: 1.7rem;
+
+
+
+
+}
+
+
+
+.box5 {
+
+    border: .2rem solid rgb(254, 213, 136);
+    height: 25rem;
+    /* width: 300rem; */
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    border-radius: 2rem;
+    background-color: rgb(254, 213, 136);
+    margin-left: 1.7rem;
+    /* margin-right:15rem; */
+    padding-top: 2.5rem;
+    margin-right: 4rem;
+
+
+
+}
+
+.box1 a,
+.box2 a,
+.box3 a,
+.box4 a,
+.box5 a {
+    font-size: 2rem;
+    margin-left: 2.5rem;
+    color: black;
+    text-decoration: none;
+
+}
+
+.box1 b,
+.box2 b,
+.box3 b,
+.box4 b,
+.box5 b {
+    font-size: 1.4rem;
+    margin-left: 2.5rem;
+    font-weight: 1;
+    color: black;
+
+}
+
+.box1 hr,
+.box2 hr,
+.box3 hr,
+.box4 hr,
+.box5 hr {
+
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-weight: .2rem;
+    color: black;
+
+}
+
+#mess {
+    color: black;
+    font-size: 5rem;
+    margin-left: 90%;
+    bottom: 8rem;
+    position: fixed;
+    animation-name: mess;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes mess {
+    from {
+        color: rgb(226, 225, 225);
+        text-shadow: 0 0 10rem #fff, 0 0 20rem #fff, 0 0 30rem #0082e6, 0 0 40rem #0082e6, 0 0 50rem #0082e6, 0 0 60rem #0082e6, 0 0 70rem #0082e6;
+    }
+
+    to {
+        color: rgb(47, 133, 232);
+        text-shadow: 0 0 20rem #fff, 0 0 30rem #214f8b, 0 0 40rem #214f8b, 0 0 50rem #214f8b, 0 0 60rem #214f8b, 0 0 70rem #214f8b, 0 0 80rem #214f8b;
+    }
+}
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+/* Contact.php part */
+.div4 {
+    border: .2rem solid rgb(48, 49, 50);
+    background-color: rgb(48, 49, 50);
+    height: 10rem;
+    position: sticky;
+    top: 0;
+
+}
+
+.div10 {
+    border: .2rem solid #2178d5;
+    background-color: #2178d5;
+    height: 6rem;
+    position: sticky;
+    top: 0;
+    padding-bottom: 1rem;
+
+}
+
+.div4 p,
+.div10 p {
+
+    font-size: 3rem;
+    color: white;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+
+}
+
+
+
+.div4 a {
+    text-decoration: none;
+    color: white;
+    float: right;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    border-bottom: .2rem solid white;
+}
+
+.div4 a:hover {
+    text-decoration: none;
+    color: white;
+    float: right;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+#home {
+    font-size: 1.6rem;
+}
+
+
+
+.div5 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.box7,
+.box6 {
+
+    border: .2rem solid rgb(192, 191, 191);
+    width: 28rem;
+    height: 40rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    padding-top: 2.5rem;
+    margin-bottom: 2rem;
+    background-color: rgb(192, 191, 191);
+    margin-left: 3rem;
+
+
+
+
+}
+
+#we {
+    color: red;
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+/* .box6 {
+
+    border: 2rem solid rgb(192, 191, 191);
+    width: 280rem;
+    height:350rem;
+    margin-top: 25rem;
+    border-radius: 20rem;
+    margin-left: 30rem;
+    padding-top: 20rem;
+    background-color: rgb(192, 191, 191);
+    
+} */
+
+.box6 a,
+.box7 a,
+.box8 a,
+.box9 a,
+.box10 a {
+
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+.box6 button,
+.box7 button {
+
+    font-size: 1.4rem;
+    color: white;
+    background-color: #214f8b;
+    padding: 1rem;
+    border: .2rem solid #214f8b;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    cursor: pointer;
+
+}
+
+
+
+.box6 b,
+.box7 b {
+
+    font-size: 1.3rem;
+    font-weight: 1rem;
+    color: black;
+    margin-bottom: .5rem;
+
+}
+
+.box6 hr,
+.box7 hr,
+.box8 hr,
+.box9 hr,
+.box10 hr {
+
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-weight: .2rem;
+    color: black;
+
+}
+
+.box7 img,
+.box6 img {
+    width: 10rem;
+    height: 10rem;
+    border: .5rem solid transparent;
+    border-radius: 50%;
+    margin-bottom: 2.5rem;
+    background: linear-gradient(45deg, #04c6cd, #3c2f88, #2178d5, #a680cd, #099fff);
+    margin-left: 8%;
+    animation: img 8s linear infinite;
+
+
+}
+
+@keyframes img {
+    0% {
+        background-position: 0 0;
+
+    }
+
+    50% {
+        background-position: 400 0;
+
+
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+
+
+
+h1 {
+    color: red;
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+/* log.php part */
+
+.body {
+    display: block;
+
+
+}
+
+
+#dvi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+
+
+}
+
+#dvi1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    align-items: center;
+
+}
+
+#div {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    align-items: center;
+
+}
+
+.div3 h2 {
+
+    border: .2rem solid rgb(116, 116, 116);
+    background-color: white;
+    font-size: 2rem;
+    color: black;
+    padding: .5rem;
+    width: 42rem;
+    border-bottom: none;
+    padding-top: 1rem;
+
+
+}
+
+.div3 form {
+    padding: 2 1 .8 1.2;
+    border: .2rem solid rgb(116, 116, 116);
+    border-top: none;
+    margin-top: -1rem;
+    text-align: center;
+    background-color: white;
+}
+
+
+.login .log {
+    color: white;
+    background-color: #2178d5;
+    border: .2rem solid #2178d5;
+    cursor: pointer;
+    padding: 1rem;
+    /* border:none; */
+    font-size: 1.5rem;
+    border-radius: .5rem;
+}
+
+#ln,
+#lp {
+    font-size: 2rem;
+    padding: .5rem;
+    color: #2178d5;
+}
+
+
+.inp {
+
+    width: 26rem;
+    height: 3rem;
+    background-color: white;
+    font-size: 2rem;
+    color: black;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+#inp {
+    width: 26rem;
+    height: 3rem;
+    background-color: white;
+    font-size: 2rem;
+    color: black;
+    margin-left: 1rem;
+}
+
+.reset {
+    color: white;
+    background-color: grey;
+    margin-top: .7rem;
+    margin-bottom: .7rem;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: .5rem;
+    border: .2rem solid grey;
+    font-size: 1.5rem;
+}
+
+#close {
+    background-color: white;
+    font-size: 3rem;
+    cursor: pointer;
+    color: black;
+    float: right;
+    padding: 1rem;
+    /* right:0;
+    top:0; */
+
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+/* reg.php part */
+#dvi h2 {
+
+    border: .2rem solid rgb(116, 116, 116);
+    background-color: white;
+    color: black;
+    padding: .5rem;
+    width: 42rem;
+    border-bottom: none;
+}
+
+.reg .sign {
+    color: white;
+    background-color: #2178d5;
+    border: .2rem solid #2178d5;
+    cursor: pointer;
+    padding: 1rem;
+    margin-top: 1rem;
+    /* border:none; */
+    font-size: 1.5rem;
+    border-radius: .5rem;
+
+}
+
+
+
+#div h2 {
+
+    background-color: white;
+    border: .2rem solid rgb(116, 116, 116);
+    border-bottom: none;
+
+}
+
+
+#rn,
+#re,
+#rp,
+#rcp {
+    font-size: 2rem;
+    padding: .5rem;
+    color: #2178d5;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+/* forget.php part */
+
+.for {
+    margin-left: 14%;
+    margin-top: -1rem;
+    float: left;
+
+}
+
+
+
+#fn,
+#fnp,
+#fcp {
+    font-size: 2rem;
+    padding: .5rem;
+    color: #2178d5;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+/* search.php part */
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+/* common part */
+
+footer {
+    border: .2rem solid rgb(45, 44, 44);
+    height: 3rem;
+    background-color: rgb(45, 44, 44);
+    margin-top: 1rem;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+footer p {
+
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+
+
+
+
+#preloader {
+    background: #0082e6 url(img/load.gif) no-repeat center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+#preloader1 {
+    background: #2461e9 url(img/wait.gif) no-repeat center;
+    background-size: 45%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+@media screen and (max-width:786px) {
+
+    .bar {
+
+        display: block;
+    }
+
+    .div2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+
+
+    }
+
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+        width: 40%;
+        height: 25rem;
+        margin-top: 1.5rem;
+        margin-left: 1.7rem;
+        border-radius: 2rem;
+        padding-top: 2.5rem;
+        margin-bottom: 3rem;
+
+    }
+
+
+
+    .box2 {
+
+        border: .2rem solid rgb(119, 210, 246);
+        background-color: rgb(119, 210, 246);
+
+
+
+
+    }
+
+    .box3 {
+
+        border: .2rem solid rgb(183, 251, 144);
+        margin-right: 4rem;
+        background-color: rgb(183, 251, 144);
+    }
+
+    .box4 {
+
+        border: .2rem solid rgb(250, 139, 139);
+        background-color: rgb(250, 139, 139);
+    }
+
+
+
+    .box5 {
+
+        border: .2rem solid rgb(254, 213, 136);
+        background-color: rgb(254, 213, 136);
+        margin-right: 4rem;
+    }
+.hmd
+{
+       display:none;
+}
+    #contact {
+        color: black;
+        display:block;
+        font-size: 2rem;
+        text-decoration: none;
+        text-align: center;
+        color: #0c8bae;
+        background-color: #fff;
+        width:fit-content;
+        padding: .2rem;
+        font-size: 1.4rem;
+        border: .2rem solid black;
+    }
+
+    .custom,
+    .cmob {
+        display: none;
+    }
+
+    #op {
+        display: block;
+        font-size: 2.5rem;
+        color: white;
+        float: right;
+        /* padding: 1rem; */
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+
+    #cl {
+
+        margin-right: 3rem;
+        font-size: 2.5rem;
+        padding: 1rem;
+        cursor: pointer;
+        color: white;
+        text-align: right;
+    }
+
+    .cmob {
+        display: none;
+        height: 100%;
+        border: .1rem solid black;
+        position: fixed;
+        left: 0;
+        margin-left: 0rem;
+        width: 100%;
+        padding: 2rem;
+        background-color: rgb(12, 139, 174);
+        overflow-x: hidden;
+        transition: 0.5s;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .cmob a
+    {
+        padding:1rem;
+    }
+
+    /* .super
+    {
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+        } */
+}
